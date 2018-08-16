@@ -1,7 +1,7 @@
 {
-  "name": "time_ago_in_words",
+  "name": "time_past_in_words",
   "version": "1.0.0",
-  "description": "time formater in words",
+  "description": "time past from current time formater in words",
   "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

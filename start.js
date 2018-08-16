@@ -1,5 +1,5 @@
-exports.timeInWords = (date) => {
-    const totalTime = date.getTime();
+const time_past_in_words = (date) => {
+    const totalTime = typeof(date) === 'string'? new Date(date):date.getTime();
     const currentTime = new Date();
 
     const seconds = currentTime > totalTime ? (currentTime - totalTime) / 1000 : 0;
@@ -45,3 +45,7 @@ exports.timeInWords = (date) => {
     }
 
 };
+
+if(typeof module != 'undefined') {
+    module.exports = time_past_in_words
+  }
