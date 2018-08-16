@@ -1,11 +1,15 @@
-const time_past_in_words = (date) => {
+const time_past_in_words = (date, no_sec) => {
     const totalTime = typeof(date) === 'string'? new Date(date):date.getTime();
     const currentTime = new Date();
 
     const seconds = currentTime > totalTime ? (currentTime - totalTime) / 1000 : 0;
 
     if (seconds < 60) {
-        return Math.trunc(seconds) + " seconds ago";
+        if (no_sec === false){
+            return 'just now';
+        } else {
+        return Math.trunc(seconds) === 1 ? Math.trunc(seconds) + " seconds ago" :Math.trunc(seconds) + " seconds ago";
+        }
     } else {
         const minutes = seconds / 60;
         if (minutes < 60) {
