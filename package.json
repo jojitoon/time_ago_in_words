@@ -1,0 +1,23 @@
+{
+  "name": "time_ago_in_words",
+  "version": "1.0.0",
+  "description": "time formater in words",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JojiAndela/time_ago_in_words.git"
+  },
+  "keywords": [
+    "node",
+    "datetime"
+  ],
+  "author": "jojitoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JojiAndela/time_ago_in_words/issues"
+  },
+  "homepage": "https://github.com/JojiAndela/time_ago_in_words#readme"
+}
