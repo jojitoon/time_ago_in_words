@@ -1,10 +1,10 @@
-const time_past_in_words = (date, no_sec) => {
+const time_past = (date, no_sec) => {
     const totalTime = typeof(date) === 'string'? new Date(date):date.getTime();
     const currentTime = new Date();
     const seconds = currentTime > totalTime ? (currentTime - totalTime) / 1000 : 0;
 
     if (seconds < 60) {
-        if (no_sec === false){
+        if (!no_sec){
             return 'just now';
         } else {
         return Math.trunc(seconds) === 1 ? Math.trunc(seconds) + " seconds ago" :Math.trunc(seconds) + " seconds ago";
@@ -34,5 +34,5 @@ const time_past_in_words = (date, no_sec) => {
                         return Math.trunc(years) === 1?Math.trunc(years) + " year ago":Math.trunc(years) + " years ago";
                     } }}}}}};
 if(typeof module != 'undefined') {
-    module.exports = time_past_in_words
+    module.exports = time_past
   }
