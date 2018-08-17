@@ -26,7 +26,7 @@ const time_past_in_words = (date, no_sec) => {
                     if(weeks < 4){
                         return Math.trunc(weeks) === 1?Math.trunc(weeks) + " week ago":Math.trunc(weeks) + " weeks ago";
                     }else {
-                        const months = weeks/4;
+                        const months = weeks/4.35;
                     if(months < 12){
                         return Math.trunc(months) === 1?Math.trunc(months) + " month ago":Math.trunc(months) + " months ago";
                     }else {
