@@ -21,7 +21,7 @@ const time_past_in_words = (date, no_sec) => {
                 const days = hours / 24;
                 if (days < 7) {
                     return Math.trunc(days) === 1 ? Math.trunc(days) + " day ago" : Math.trunc(days) + " days ago";
-                } else 
+                } else {
                     const weeks = days/7;
                     if(weeks < 4){
                         return Math.trunc(weeks) === 1?Math.trunc(weeks) + " week ago":Math.trunc(weeks) + " weeks ago";
@@ -32,7 +32,7 @@ const time_past_in_words = (date, no_sec) => {
                     }else {
                         const years = months/12;
                         return Math.trunc(years) === 1?Math.trunc(years) + " year ago":Math.trunc(years) + " years ago";
-                    } }}}}};
+                    } }}}}}};
 if(typeof module != 'undefined') {
     module.exports = time_past_in_words
   }
