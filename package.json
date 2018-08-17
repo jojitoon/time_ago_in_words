@@ -1,6 +1,6 @@
 {
   "name": "time_past_in_words",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "time past from current time formater in words",
   "main": "start.js",
   "scripts": {
