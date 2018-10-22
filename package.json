@@ -1,6 +1,6 @@
 {
   "name": "time_past",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "time past from current time formater in words",
   "main": "./distribution/start.js",
   "scripts": {
