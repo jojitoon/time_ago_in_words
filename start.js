@@ -28,7 +28,7 @@ const time_past = (date, no_sec) => {
                     }else {
                         const months = weeks/4.35;
                     if(months < 12){
-                        return Math.trunc(months) === 1?Math.trunc(months) + " month ago":Math.trunc(months) + " months ago";
+                        return Math.round(months) === 1?Math.round(months) + " month ago":Math.trunc(months) + " months ago";
                     }else {
                         const years = months/12;
                         return Math.trunc(years) === 1?Math.trunc(years) + " year ago":Math.trunc(years) + " years ago";
