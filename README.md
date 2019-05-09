@@ -1,1 +1,2 @@
 # time_ago_in_words
+[![Build Status](https://travis-ci.org/JojiAndela/time_ago_in_words.svg?branch=master)](https://travis-ci.org/JojiAndela/time_ago_in_words) [![Maintainability](https://api.codeclimate.com/v1/badges/34be48802bb6a87ea376/maintainability)](https://codeclimate.com/github/JojiAndela/time_ago_in_words/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/34be48802bb6a87ea376/test_coverage)](https://codeclimate.com/github/JojiAndela/time_ago_in_words/test_coverage)

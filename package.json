@@ -1,13 +1,14 @@
 {
   "name": "time_past",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Time past from current time formatter in words",
   "main": "./dist/index.js",
   "scripts": {
     "clean": "rm -rf dist",
     "lint": "eslint --fix ./src",
     "prepare": "npm run clean && mkdir dist && babel src -d dist --ignore src/**/__tests__/*.js",
-    "test": "npm run lint && jest"
+    "test": "npm run lint && jest",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov npm test"
   },
   "repository": {
     "type": "git",
