@@ -1,8 +1,13 @@
 {
   "name": "time_past",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Time past from current time formatter in words",
   "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "lint": "eslint --fix ./src",
